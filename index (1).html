@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pranay Poojari | Data, ML & Web</title>
+<meta name="description" content="Pranay Poojari: AI/ML and data engineering, with the web skills to ship what I build.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fafaf9;--ink:#1c1917;--mute:#57534e;--line:#e7e5e4;--card:#fff;--accent:#0f766e}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--ink:#f5f5f4;--mute:#a8a29e;--line:#2a2927;--card:#1c1b1a;--accent:#5eead4}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 "IBM Plex Sans",system-ui,sans-serif}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:760px;margin:0 auto;padding:0 24px}
+nav{display:flex;gap:22px;padding:22px 0;font-size:15px}
+nav a{color:var(--mute)}
+nav a:hover{color:var(--ink);text-decoration:none}
+header{padding:56px 0 40px}
+h1{font-size:clamp(34px,6vw,52px);line-height:1.1;margin:0 0 18px;font-weight:600;letter-spacing:-.02em}
+h2{font-size:22px;margin:0 0 6px;font-weight:600}
+h3{font-size:18px;margin:0 0 4px;font-weight:600}
+.lead{font-size:20px;color:var(--mute);max-width:600px;margin:0 0 26px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:10px 18px;border-radius:6px;border:1px solid var(--ink);font-size:15px;font-weight:500;color:var(--bg);background:var(--ink)}
+.btn.alt{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn:hover{text-decoration:none;opacity:.88}
+section{padding:44px 0;border-top:1px solid var(--line)}
+.sub{color:var(--mute);margin:0 0 24px;font-size:16px}
+.item{padding:18px 0;border-bottom:1px solid var(--line)}
+.item:last-child{border-bottom:0}
+.item p{margin:4px 0 8px;color:var(--mute);font-size:16px}
+.tags{font-size:14px;color:var(--mute)}
+.links{font-size:15px;display:flex;gap:16px}
+.sites{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.site{background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.shot{height:150px;background:var(--line) center/cover no-repeat}
+.site .body{padding:16px}
+.site p{margin:4px 0 10px;color:var(--mute);font-size:15px;line-height:1.5}
+dl{display:grid;grid-template-columns:150px 1fr;gap:10px 16px;margin:0}
+dt{font-weight:600;font-size:16px}
+dd{margin:0;color:var(--mute);font-size:16px}
+ul{padding-left:20px;margin:8px 0 0;color:var(--mute);font-size:16px}
+footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--mute);font-size:15px}
+@media (max-width:560px){dl{grid-template-columns:1fr;gap:2px}dt{margin-top:10px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Sections">
+  <a href="#work">Data work</a>
+  <a href="#sites">Websites</a>
+  <a href="#experience">Experience</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header>
+  <h1>Pranay Poojari</h1>
+  <p class="lead">I work in AI/ML and data engineering: pipelines, models and dashboards. I can also build and deploy the website or tool that puts them in front of people.</p>
+  <div class="btns">
+    <a class="btn" href="mailto:pranaypoojari10@gmail.com">Get in touch</a>
+    <a class="btn alt" href="https://www.linkedin.com/in/PranayPoojari">LinkedIn</a>
+    <a class="btn alt" href="https://github.com/pranaypoojari">GitHub</a>
+  </div>
+</header>
+
+<section id="work">
+  <h2>Data and ML projects</h2>
+  <p class="sub">Analysis, models and dashboards.</p>
+
+  <div class="item">
+    <h3>Movie Recommendation System</h3>
+    <p>A content-based recommender using cosine similarity. I cleaned and processed a large dataset and visualised how similarity scores are distributed.</p>
+    <div class="tags">Python, Scikit-learn, Pandas, NumPy, Matplotlib</div>
+    <!-- EDIT: add your repo link
+    <div class="links"><a href="https://github.com/pranaypoojari/REPO">Code</a></div> -->
+  </div>
+
+  <div class="item">
+    <h3>Consumer Pattern Analysis</h3>
+    <p>Exploratory analysis with automated cleaning and transformation in Python and SQL, ending in interactive dashboards that show purchasing trends.</p>
+    <div class="tags">Power BI, SQL, Python</div>
+  </div>
+
+  <div class="item">
+    <h3>Brand Revenue Analysis</h3>
+    <p>A comparison of revenue across several brands using SQL, delivered as interactive Power BI dashboards for business decisions.</p>
+    <div class="tags">SQL, Power BI</div>
+  </div>
+</section>
+
+<section id="sites">
+  <h2>Websites I've built</h2>
+  <p class="sub">Alongside the data work, I design and ship websites. Here are some live ones.</p>
+
+  <div class="sites">
+    <!-- EDIT: copy this block once per website. Replace the title, text, links and screenshot path. -->
+    <article class="site">
+      <div class="shot" style="background-image:url('images/site-1.png')" role="img" aria-label="Screenshot of Website One"></div>
+      <div class="body">
+        <h3>Website One</h3>
+        <p>One line on what it is, who it is for, and what you did.</p>
+        <div class="tags">HTML, CSS, JavaScript</div>
+        <div class="links"><a href="https://example.com">Live site</a><a href="https://github.com/pranaypoojari/REPO">Code</a></div>
+      </div>
+    </article>
+
+    <article class="site">
+      <div class="shot" style="background-image:url('images/site-2.png')" role="img" aria-label="Screenshot of Website Two"></div>
+      <div class="body">
+        <h3>Website Two</h3>
+        <p>One line on what it is, who it is for, and what you did.</p>
+        <div class="tags">HTML, CSS, JavaScript</div>
+        <div class="links"><a href="https://example.com">Live site</a><a href="https://github.com/pranaypoojari/REPO">Code</a></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="item">
+    <h3>AI/ML Intern, Debox Consulting</h3>
+    <div class="tags">Mumbai · Feb 2026 to present</div>
+    <ul>
+      <li>Built and deployed ML models for classification and recommendation tasks.</li>
+      <li>Automated data preprocessing pipelines with Python and Pandas.</li>
+      <li>Helped design and run ETL workflows for structured and semi-structured data.</li>
+      <li>Worked with cross-functional teams to deliver data-driven insights.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <h3>Education</h3>
+    <ul>
+      <li>M.Sc. Big Data Analytics, Jai Hind College, Mumbai (2024 to 2026)</li>
+      <li>B.Sc. Data Science, KES' Shroff College, Mumbai (2020 to 2023)</li>
+      <li>Certifications: Big Data Computing, Recommender Systems, Advanced Excel, Digital Marketing</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <p class="sub"></p>
+  <dl>
+    <dt>Languages</dt><dd>Python, SQL, Scala, R</dd>
+    <dt>Big data and ETL</dt><dd>Apache Spark, PySpark, Hadoop, data warehousing</dd>
+    <dt>ML and AI</dt><dd>Scikit-learn, Pandas, NumPy, NLP, recommender systems</dd>
+    <dt>Databases</dt><dd>PostgreSQL, MySQL, MongoDB</dd>
+    <dt>BI and visualisation</dt><dd>Power BI, Tableau, Matplotlib, Seaborn</dd>
+    <dt>Web</dt><dd>HTML, CSS, JavaScript, GitHub Pages</dd>
+  </dl>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="sub">I'm open to data and ML roles. The quickest way to reach me is email.</p>
+  <p><a href="mailto:pranaypoojari10@gmail.com">pranaypoojari10@gmail.com</a></p>
+</section>
+
+<footer>Pranay Poojari · Mumbai, India</footer>
+</div>
+</body>
+</html>
